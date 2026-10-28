@@ -1,0 +1,9 @@
+# macOS files
+.DS_Store
+
+# Development dependencies
+node_modules/
+
+# Local backup files
+*.backup.css
+*.before-fix.css

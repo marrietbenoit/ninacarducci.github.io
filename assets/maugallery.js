@@ -116,8 +116,11 @@
     openLightBox(element, lightboxId) {
       $(`#${lightboxId}`)
         .find(".lightboxImage")
-        .attr("src", element.attr("src"));
-      $(`#${lightboxId}`).modal("toggle");
+        .attr("src", element.attr("src"))
+    
+      const modalElement = document.getElementById(lightboxId)
+      const modal = bootstrap.Modal.getOrCreateInstance(modalElement)
+      modal.show()
     },
     prevImage() {
       let activeImage = null;
