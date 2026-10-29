@@ -41,7 +41,9 @@ body {
 .social-link img {
 	width: 20px;
 }
-
+.carousel-item img {
+	height: auto;
+  }
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -68,8 +70,9 @@ body {
 }
 
 .picture img {
-	width: 100%;
-
+  width: 100%;
+  height: auto;
+  display: block;
 }
 #about-me {
 	flex: 2
