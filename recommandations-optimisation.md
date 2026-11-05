@@ -348,3 +348,36 @@ Afin d'organiser les interventions, les optimisations sont classées selon leur 
 Ces recommandations serviront de base aux modifications techniques apportées au site.
 
 Une fois les optimisations réalisées, de nouveaux audits Lighthouse et WAVE permettront de mesurer les améliorations obtenues et de vérifier les résultats par rapport aux objectifs du projet.
+
+## 6. Optimisations SEO complémentaires réalisées
+
+### Données structurées Schema.org
+
+Ajout de données structurées au format JSON-LD avec le type `ProfessionalService`, permettant aux moteurs de recherche de mieux comprendre l'activité de Nina Carducci.
+
+Les informations renseignées comprennent :
+- Le nom et la description de l'activité
+- L'adresse professionnelle et le numéro de téléphone
+- Le tarif de départ des prestations
+- L'image représentant la photographe
+- L'URL officielle du site
+
+**Validation :** test effectué avec l'outil Google Rich Results Test. Résultat : 2 éléments valides détectés (Commerces et services à proximité et Organisation), sans problème signalé.
+
+### Métadonnées Open Graph et Twitter Cards
+
+Ajout de métadonnées permettant d'améliorer la présentation du site lors du partage de son URL sur les réseaux sociaux.
+
+Les informations définies comprennent le titre, la description, l'URL et l'image de présentation du site.
+
+### URL canonique
+
+Ajout d'une balise `rel="canonical"` afin d'indiquer aux moteurs de recherche l'URL de référence de la page d'accueil et de limiter les risques liés aux contenus dupliqués.
+
+### Mise en ligne et vérification
+
+Les modifications ont été enregistrées dans le dépôt GitHub et publiées sur GitHub Pages.
+
+La présence des nouvelles métadonnées Open Graph a été vérifiée dans le code source de la version en ligne.
+
+**Preuve de validation :** capture d'écran `schema-org-validation.png`.
