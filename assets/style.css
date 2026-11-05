@@ -359,3 +359,15 @@ input[type="submit"] {
 	}
 }
 
+/* Improve carousel arrow visibility */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 24px;
+  background-size: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

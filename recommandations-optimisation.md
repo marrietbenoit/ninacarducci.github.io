@@ -381,3 +381,26 @@ Les modifications ont été enregistrées dans le dépôt GitHub et publiées su
 La présence des nouvelles métadonnées Open Graph a été vérifiée dans le code source de la version en ligne.
 
 **Preuve de validation :** capture d'écran `schema-org-validation.png`.
+
+## 7. Résultats des tests Lighthouse après optimisation
+
+Un nouvel audit Lighthouse a été réalisé sur la version en ligne du site, en configuration mobile, après les différentes optimisations.
+
+| Critère | Score initial | Score final |
+|---|---|---|
+| Performance | 64/100 | 99/100 |
+| Accessibilité | 68/100 | 100/100 |
+| Bonnes pratiques | Non relevé | 100/100 |
+| SEO | 73/100 | 100/100 |
+
+### Analyse des résultats
+
+Les optimisations réalisées ont permis d'améliorer significativement les performances du site, notamment grâce à la compression et à l'adaptation des images, à l'optimisation des ressources CSS et au chargement différé des scripts.
+
+Le score de performance est passé de 64 à 99 sur mobile, soit une progression de 35 points lors de l'audit retenu.
+
+Les scores d'accessibilité, de bonnes pratiques et de SEO atteignent 100/100.
+
+Les résultats Lighthouse peuvent varier légèrement entre plusieurs audits selon les conditions de mesure. Les scores présentés correspondent à un audit réalisé après optimisation.
+
+**Justificatif :** capture d'écran du rapport Lighthouse final en configuration mobile.
