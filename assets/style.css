@@ -370,4 +370,9 @@ input[type="submit"] {
   background-position: center;
   background-repeat: no-repeat;
 }
+/* Improve contrast of carousel screen-reader labels */
+.carousel-control-prev .visually-hidden,
+.carousel-control-next .visually-hidden {
+  color: #000;
+}
 
