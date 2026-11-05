@@ -404,3 +404,20 @@ Les scores d'accessibilité, de bonnes pratiques et de SEO atteignent 100/100.
 Les résultats Lighthouse peuvent varier légèrement entre plusieurs audits selon les conditions de mesure. Les scores présentés correspondent à un audit réalisé après optimisation.
 
 **Justificatif :** capture d'écran du rapport Lighthouse final en configuration mobile.
+
+### Validation finale de l’accessibilité avec WAVE
+
+Afin de compléter les audits Lighthouse, une analyse d’accessibilité a été réalisée avec l’outil WAVE (Web Accessibility Evaluation Tool) sur le site publié.
+
+**Résultats de l’analyse finale :**
+- **0 erreur d’accessibilité**
+- **0 erreur de contraste**
+- **1 alerte** concernant l’élément `<noscript>`
+
+Les deux erreurs de contraste initialement signalées concernaient les libellés « Previous » et « Next » du carrousel. Une correction CSS a permis de résoudre ces avertissements tout en conservant les libellés accessibles aux lecteurs d’écran et sans modifier l’apparence des boutons de navigation.
+
+L’alerte restante concerne l’élément `<noscript>`, utilisé pour fournir un contenu alternatif lorsque JavaScript est désactivé. Cet élément a été conservé, l’alerte nécessitant une vérification manuelle plutôt qu’une suppression systématique.
+
+**Bilan :** L’analyse WAVE ne signale plus aucune erreur d’accessibilité ni de contraste. Ce résultat complète le score de **100/100 en accessibilité obtenu avec Lighthouse**.
+
+Une capture d’écran des résultats est conservée dans le dossier d’audit sous le nom `wave-accessibility-final.png`.
